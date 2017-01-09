@@ -1,0 +1,46 @@
+.inner{width:750px;margin:0 auto;}
+*{margin:0;padding:0;}
+ul{list-style: none;}
+a{text-decoration:none;}
+
+#background{background-image: url("../images/mai.jpg");background-size: cover;}
+
+header{height: 40px;}
+
+nav .pic1{position: absolute;top:20px;left:10px;}
+nav .pic2{position: absolute;top:20px;right:10px;}
+nav .inner{text-align: center;height: 82px;background-color: rgba(125,97,242,0.7);position:relative;}
+nav input{border-radius: 5px;border:2px solid #ccc;width:244px;height: 40px;margin-top: 20px;
+    background-color: rgba(125,97,242,0.7);padding:0 20px;font-size: 26px;color:#fff;font-weight: bold;}
+#Ajax-btn{ height:44px;width:40px;border: 2px solid #ccc; background-color: #ddd;border-radius: 5px;color:#fff;
+    position: absolute;top:20px;left:525px;}
+
+#banner{padding:160px 0 101px;height:458px;background-color: rgba(0,0,0,0.2)}
+#temperature{width:235px;height:240px;position: relative;margin: 0 auto;}
+#temperature p{display:block;width:235px;height:156px;position:absolute;top:0;left:0;line-height: 156px;font-size: 150px;text-align: center;
+    color:#fff;}
+#temperature span{display:block;width:215px;height:60px;position:absolute;bottom:30px;left:0;line-height: 60px;font-size: 30px;
+    font-weight:bold;padding:0 10px;word-spacing: 5px;color:#fff;}
+#weather_icon{width:102px;height:77px;position: absolute;left:-80px;top:-5px; }
+#weather_icon img{width:102px;height:77px;}
+
+#condition{text-align: center;margin-top: 103px;margin-bottom: 101px;height:117px;}
+#condition p{display:inline-block;width:160px;height:117px;line-height: 117px;color:#fff;font-size: 50px;margin:0 5px;}
+
+#week_weather .top{height:128px;text-align: center;
+    background-color:rgba(48,38,78,0.7);padding-top:77px}
+#week_weather .top p{display:inline-block;height:45px;width:238px;border:2px solid #483f61;color:#fff;line-height: 45px;border-radius:24px;
+    font-size: 20px;}
+#week_weather .bottom{ height:288px;background-color:rgba(48,38,78,0.7);padding:0 25px;}
+#week_weather .bottom .day{width:140px; height:288px;float:left;}
+.bottom .day .pic_icon{height:64px;width:65px;padding:22px 0 0 35px;}
+.bottom .day span{height:51px;line-height: 51px;width:100px;display:inline-block;font-size:26px;color:#fff;text-align: center;}
+.bottom .day p{height:50px;line-height: 50px;width:80px;display:inline-block;color:#fff;text-align: center;font-size: 20px;
+    padding:0 20px;}
+
+
+
+
+
+
+

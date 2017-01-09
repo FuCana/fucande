@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>weather</title>
+    <link href="css/weather.css" rel="stylesheet">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/weather.js"></script>
+</head>
+
+<body>
+
+<div id="background" class="inner">
+    <header>
+        <div class="inner">
+            <img src="images/header_01.jpg">
+        </div>
+    </header>
+    <nav>
+        <div class="inner">
+            <div class="pic1"><img src="images/nav_menu.png"> </div>
+            <div class="pic2"><img src="images/nav_arrow.png"> </div>
+            <input type="text" value="上海" id="Input">
+            <button id="Ajax-btn" type="button">查询</button>
+        </div>
+    </nav>
+    <section id="banner">
+        <div class="inner">
+            <div id="temperature">
+                <!--<p>24</p>-->
+                <!--<span>下雨</span>-->
+                <div id="weather_icon"><img src="images/pic_dalei.png"> </div>
+            </div>
+
+            <div id="condition">
+                <!--<p>3-4级</p>-->
+                <!--<p>高温 8℃</p>-->
+                <!--<p>低温 -2℃</p>-->
+            </div>
+        </div>
+    </section>
+    <section id="week_weather">
+        <div class="inner">
+            <div class="top">
+                <p>future of five days</p>
+            </div>
+            <div class="bottom">
+                <div class="day">
+                    <span>一</span>
+                    <div class="pic_icon"><img src="images/pic_dalei.png"></div>
+                    <p>12</p>
+                </div>
+                <div class="day">
+                    <span>二</span>
+                    <div class="pic_icon"><img src="images/pic_dalei.png"></div>
+                    <p>12</p>
+                </div>
+                <div class="day">
+                    <span>三</span>
+                    <div class="pic_icon"><img src="images/pic_dalei.png"></div>
+                    <p>12</p>
+                </div>
+                <div class="day">
+                    <span>四</span>
+                    <div class="pic_icon"><img src="images/pic_dalei.png"></div>
+                    <p>12</p>
+                </div>
+                <div class="day">
+                    <span>五</span>
+                    <div class="pic_icon"><img src="images/pic_dalei.png"></div>
+                    <p>12</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+</div>
+
+</body>
+</html>
